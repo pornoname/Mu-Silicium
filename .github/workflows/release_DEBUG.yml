@@ -1,0 +1,20 @@
+name: Build UEFI for DEBUG
+on:
+  workflow_dispatch:
+  push:
+    tags:
+      - "*"
+env:
+  CI_BUILD: true
+jobs:
+  build_release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build UEFI
+        run: bash ./setup_env.sh -p apt && bash ./build_uefi.sh -d pipa -r DEBUG
+
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v3
+        with:
+          path: ./*.img
