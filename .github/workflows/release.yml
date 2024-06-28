@@ -1,5 +1,6 @@
 name: Build UEFI for release
 on:
+  workflow_dispatch:
   push:
     tags:
       - "*"
