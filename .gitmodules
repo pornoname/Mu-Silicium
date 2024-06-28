@@ -1,6 +1,6 @@
 [submodule "Binaries"]
 	path = Binaries
-	url = https://github.com/pornoname/Device-Binaries
+	url = https://github.com/pornoname/Device-Binaries.git
 [submodule "Common/Mu"]
 	path = Common/Mu
 	url = https://github.com/microsoft/mu_plus.git
