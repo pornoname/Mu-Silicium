@@ -57,10 +57,10 @@
 
   # SmBios
   gSiliciumPkgTokenSpaceGuid.PcdSmbiosSystemVendor|"Xiaomi Inc"
-  gSiliciumPkgTokenSpaceGuid.PcdSmbiosSystemModel|"Pad 6"
+  gSiliciumPkgTokenSpaceGuid.PcdSmbiosSystemModel|"Pad 5 Pro 12.4"
   gSiliciumPkgTokenSpaceGuid.PcdSmbiosSystemRetailModel|"pipa"
   gSiliciumPkgTokenSpaceGuid.PcdSmbiosSystemRetailSku|"Pad_pipa"
-  gSiliciumPkgTokenSpaceGuid.PcdSmbiosBoardModel|"Pad 6"
+  gSiliciumPkgTokenSpaceGuid.PcdSmbiosBoardModel|"Pad 5 Pro 12.4"
 
   # Simple FrameBuffer
   gSiliciumPkgTokenSpaceGuid.PcdMipiFrameBufferWidth|1600
