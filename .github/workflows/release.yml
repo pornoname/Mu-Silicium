@@ -14,10 +14,8 @@ jobs:
       - name: Build UEFI
         run: bash ./setup_env.sh -p apt && bash ./build_uefi.sh -d pipa
 
-      - name: Create Release
-        uses: softprops/action-gh-release@v2
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v3
         with:
-          draft: true
-          prerelease: false
-          files: |
-            Mu-*
+          # run: ./build_uefi.sh -d gts8 -m 8
+          path: ./*.img
