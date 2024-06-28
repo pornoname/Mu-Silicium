@@ -67,10 +67,11 @@
   INF Binaries/pipa/QcomPkg/Drivers/SPMIDxe/SPMIDxe.inf
   INF Binaries/pipa/QcomPkg/Drivers/SdccDxe/SdccDxe.inf
   INF Binaries/pipa/QcomPkg/Drivers/UFSDxe/UFSDxe.inf
+  INF Binaries/pipa/QcomPkg/Drivers/DisplayDxe/DisplayDxe.inf
   INF Binaries/pipa/QcomPkg/Drivers/TLMMDxe/TLMMDxe.inf
 
   # Only used for DisplayDxe for Qualcomm Demura
-  #INF Binaries/pipa/QcomPkg/Drivers/FeatureEnablerDxe/FeatureEnablerDxe.inf
+  INF Binaries/pipa/QcomPkg/Drivers/FeatureEnablerDxe/FeatureEnablerDxe.inf
   INF Binaries/pipa/QcomPkg/Drivers/VibratorDxe/VibratorDxe.inf
 
 !if $(USE_CUSTOM_DISPLAY_DRIVER) == 1
