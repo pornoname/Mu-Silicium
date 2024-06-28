@@ -14,7 +14,10 @@ FILE FREEFORM = 7E374E25-8E01-4FEE-87F2-390C23C606CD {
 # SECTION RAW = SM8250Pkg/AcpiTables/MSDM.aml
   SECTION RAW = SM8250Pkg/AcpiTables/PPTT.aml
 # SECTION RAW = SM8250Pkg/AcpiTables/SPCR.aml
-  SECTION RAW = SM8250Pkg/AcpiTables/TPM2.aml
-  SECTION RAW = SM8250Pkg/AcpiTables/XSDT.aml
+# SECTION RAW = SM8250Pkg/AcpiTables/TPM2.aml
+# SECTION RAW = SM8250Pkg/AcpiTables/XSDT.aml
+ 	SECTION RAW = SM8250Pkg/AcpiTables/SSDT.aml
+	SECTION RAW = SM8250Pkg/AcpiTables/TPMDev.dat
+	SECTION RAW = SM8250Pkg/AcpiTables/SoftwareTpm2Table.aml
   SECTION UI = "AcpiTables"
 }
