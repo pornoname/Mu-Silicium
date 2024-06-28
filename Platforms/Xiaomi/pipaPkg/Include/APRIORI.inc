@@ -61,7 +61,7 @@ APRIORI DXE {
   INF MdeModulePkg/Universal/Variable/RuntimeDxe/VariableRuntimeDxe.inf
   
   # Only used for DisplayDxe for Qualcomm Demura
-  INF Binaries/pipa/QcomPkg/Drivers/FeatureEnablerDxe/FeatureEnablerDxe.inf
+  # INF Binaries/pipa/QcomPkg/Drivers/FeatureEnablerDxe/FeatureEnablerDxe.inf
 
   INF Binaries/pipa/QcomPkg/Drivers/QcomWDogDxe/QcomWDogDxe.inf
   INF Binaries/pipa/QcomPkg/Drivers/DDRInfoDxe/DDRInfoDxe.inf
@@ -73,6 +73,7 @@ APRIORI DXE {
 !else
   INF SiliciumPkg/Drivers/SimpleFbDxe/SimpleFbDxe.inf
 !endif
+
   INF Binaries/pipa/QcomPkg/Drivers/DisplayDxe/DisplayDxe.inf
 
   INF Binaries/pipa/QcomPkg/Drivers/PILProxyDxe/PILProxyDxe.inf
