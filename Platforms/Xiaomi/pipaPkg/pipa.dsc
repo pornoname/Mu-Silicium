@@ -63,8 +63,8 @@
   gSiliciumPkgTokenSpaceGuid.PcdSmbiosBoardModel|"Pad 6"
 
   # Simple FrameBuffer
-  gSiliciumPkgTokenSpaceGuid.PcdMipiFrameBufferWidth|1800
-  gSiliciumPkgTokenSpaceGuid.PcdMipiFrameBufferHeight|2880
+  gSiliciumPkgTokenSpaceGuid.PcdMipiFrameBufferWidth|1600
+  gSiliciumPkgTokenSpaceGuid.PcdMipiFrameBufferHeight|2560
   gSiliciumPkgTokenSpaceGuid.PcdMipiFrameBufferColorDepth|32
 
   # Dynamic RAM Start Address
@@ -74,13 +74,13 @@
   gQcomPkgTokenSpaceGuid.PcdInitCardSlot|FALSE
 
   # USB Controller
-  gQcomPkgTokenSpaceGuid.PcdStartUsbController|FALSE
+  gQcomPkgTokenSpaceGuid.PcdStartUsbController|TRUE
   
 [PcdsDynamicDefault]
-  gEfiMdeModulePkgTokenSpaceGuid.PcdVideoHorizontalResolution|1800
-  gEfiMdeModulePkgTokenSpaceGuid.PcdVideoVerticalResolution|2880
-  gEfiMdeModulePkgTokenSpaceGuid.PcdSetupVideoHorizontalResolution|1800
-  gEfiMdeModulePkgTokenSpaceGuid.PcdSetupVideoVerticalResolution|2880
+  gEfiMdeModulePkgTokenSpaceGuid.PcdVideoHorizontalResolution|1600
+  gEfiMdeModulePkgTokenSpaceGuid.PcdVideoVerticalResolution|2560
+  gEfiMdeModulePkgTokenSpaceGuid.PcdSetupVideoHorizontalResolution|1600
+  gEfiMdeModulePkgTokenSpaceGuid.PcdSetupVideoVerticalResolution|2560
   gEfiMdeModulePkgTokenSpaceGuid.PcdSetupConOutColumn|225
   gEfiMdeModulePkgTokenSpaceGuid.PcdSetupConOutRow|151
   gEfiMdeModulePkgTokenSpaceGuid.PcdConOutColumn|225
