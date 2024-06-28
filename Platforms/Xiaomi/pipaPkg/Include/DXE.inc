@@ -78,9 +78,6 @@
 !else
 	INF SiliciumPkg/Drivers/SimpleFbDxe/SimpleFbDxe.inf
 !endif
-
-  INF Binaries/pipa/QcomPkg/Drivers/DisplayDxe/DisplayDxe.inf
-
   INF Binaries/pipa/QcomPkg/Drivers/PlatformInfoDxe/PlatformInfoDxe.inf
   INF Binaries/pipa/QcomPkg/Drivers/ButtonsDxe/ButtonsDxe.inf
   INF Binaries/pipa/QcomPkg/Drivers/PmicDxe/PmicDxeLa.inf
