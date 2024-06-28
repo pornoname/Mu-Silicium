@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Build UEFI
-        run: bash ./setup_env.sh -p apt && bash ./build_active_devices.sh
+        run: bash ./setup_env.sh -p apt && bash ./build_uefi.sh -d pipa
 
       - name: Create Release
         uses: softprops/action-gh-release@v2
